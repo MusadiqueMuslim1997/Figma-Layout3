@@ -1,0 +1,348 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+nav{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 30%;
+    height: 80px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    width: 60%;
+    height: 80px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.bar{
+    width: 5%;
+    height: 80px;
+    
+    display: none;
+    align-items: center;
+    justify-content: right;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    background-image: linear-gradient(to right, #E65C00 20%, #F9D423 100%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+li:hover{
+   background-color: #F9D423 ;
+   
+    transform: scale(1.09);
+}
+@media screen and (max-width:700px)
+{
+    .menu{
+        display: none;
+    }
+    .bar{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        font-size: 25px;
+    }
+}
+.main{
+    
+    width: 100%;
+    height: 600px;
+    
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main1{
+    width: 45%;
+    
+   
+    
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main2{
+    width: 45%;
+    height: 400px;
+   
+    
+    display: flex;
+  
+    justify-content: right;
+    
+   
+   
+}
+.main-a{
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-b{
+    width: 100%;
+    font-size: 15px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-c{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.button{
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    background-image: linear-gradient(to right, #00D2FF 20%, #3A7BD5 100%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button:hover{
+    transform: scale(1.05);
+}
+.container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.mob-1{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    top: 30px;
+    left: 100px;
+
+}
+
+.mob-2{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    position: absolute;
+    top:50px;
+    left: 180px;
+
+}
+
+.mob-3{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    
+}
+
+ .mob-img{
+    width: 250px;
+    height: 300px;
+ }
+ .mob-img2{
+    width: 250px;
+    height: 300px;
+ }
+ .mob-img3{
+    width: 200px;
+    height: 220px;
+ }
+ @media screen and (max-width:750px)
+ {
+    .main1{
+        width: 90%;
+        
+       
+        
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .main2{
+        width: 90%;
+        height: 400px;
+       
+        
+        display: flex;
+        
+        justify-content: center;
+        position: relative;
+       
+       
+    }
+    .main-a{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-b{
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+        color: grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-c{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .button{
+        width: 140px;
+        height: 40px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        color: white;
+        background-image: linear-gradient(to right, #00D2FF 20%, #3A7BD5 100%);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .button:hover{
+        transform: scale(1.05);
+    }
+    .container{
+        width: 300px;
+        position: relative;
+        
+    }
+    .mob-1{
+        width: 30%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        position: absolute;
+        top: 30px;
+        left: 110px;
+    
+    }
+    
+    .mob-2{
+        width: 30%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        position: absolute;
+        top:50px;
+        left: 140px;
+    
+    }
+    
+    .mob-3{
+        width: 30%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        position: absolute;
+        top: 90px;
+        left: 130px;
+        
+    }
+    
+     .mob-img{
+        width: 100px;
+        height: 120px;
+     }
+     .mob-img2{
+        width: 100px;
+        height: 120px;
+     }
+     .mob-img3{
+        width: 80px;
+        height: 90px;
+     }
+ }
+
+
+
+
+
+
